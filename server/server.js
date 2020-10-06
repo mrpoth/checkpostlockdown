@@ -15,9 +15,13 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 app.options("*", cors());
+
+const mongoPass = process.env.MONGO_PASS;
+const mongoUser = process.env.MONGO_USER;
+const mongoDbName = process.env.MONGO_DB_NAME;
 //Set up default mongoose connection
 let mongoDB =
-  "mongodb+srv://postcodechecker:checkdatlockdown99@cluster0.gylxs.mongodb.net/postcodechk?retryWrites=true&w=majority";
+  `mongodb+srv://${mongoUser}:${mongoPass}@cluster0.gylxs.mongodb.net/${mongoDbName}?retryWrites=true&w=majority`;
 mongoose.connect(mongoDB, { useNewUrlParser: true });
 
 //Get the default connection
@@ -66,7 +70,7 @@ app.use(bodyParser.json());
 //Define global consts
 
 const port = process.env.NODE_PORT || process.env.PORT;
-// const apiKey = process.env.VUE_APP_TMDB_KEY
+const apiKey = process.env.VUE_APP_GIPHY_KEY;
 
 app.post("/areainfo", (req, res) => {
   getAdminDistrict(req.body.postcode).then((area) => {
@@ -78,7 +82,9 @@ app.post("/areainfo", (req, res) => {
     AreaInfoModel.findOne({ area_name: area }, function(err, areaInfo) {
       if (err) return err;
       if (areaInfo == null) {
-        res.json({error: "No info for this area, default restrictions may apply"});
+        res.json({
+          error: "No info for this area, default restrictions may apply",
+        });
         return;
       }
       res.send(areaInfo);
@@ -87,11 +93,14 @@ app.post("/areainfo", (req, res) => {
 });
 
 app.get("/lockdowngif", (req, res) => {
-  axios.get("https://api.giphy.com/v1/gifs/search?api_key=W9RErdtsg4lZDu0WkofCWdFc8spJj2CE&q=boris+johnson").then(gif => {
-    let url = gif.data.data[Math.floor(1 + Math.random() * 30)].images.original.url;
-    res.json({url});
-
-  }).catch(err => console.log(err));
-})
+  axios
+    .get(`https://api.giphy.com/v1/gifs/search?api_key=${apiKey}=boris+johnson`)
+    .then((gif) => {
+      let url =
+        gif.data.data[Math.floor(1 + Math.random() * 30)].images.original.url;
+      res.json({ url });
+    })
+    .catch((err) => console.log(err));
+});
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
