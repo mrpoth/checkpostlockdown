@@ -1,0 +1,36 @@
+version: '3.7'
+
+services:
+
+  my-app:
+    container_name: my-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '8081:8080'
+  api:
+    image: ebiven/vue-cli
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - '/app/node_modules'
+    ports:
+      - '3000:3000'
+    command: npm run api:start
+    env_file:
+      - .env
+  db:
+    container_name: Mongo-db
+    image: mongo:4
+    volumes:
+      - ./db/data:/data/db
+    env_file:
+      - .env
+    ports:
+      - '27020:27017'

@@ -1,0 +1,131 @@
+[{
+  "area_id": { "$numberInt": "4" },
+  "area_name": "Halton",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "5" },
+  "area_name": "Knowsley",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "6" },
+  "area_name": "Liverpool",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "7" },
+  "area_name": "Sefton",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "8" },
+  "area_name": "St Helens",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "9" },
+  "area_name": "Warrington",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "10" },
+  "area_name": "Wirral",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "11" },
+  "area_name": "Wolverhampton",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "12" },
+  "area_name": "Oadby",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "13" },
+  "area_name": "Wigston",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "14" },
+  "area_name": "Bradford",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "15" },
+  "area_name": "Kirklees",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "16" },
+  "area_name": "Bolton",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "No",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+}
+]
