@@ -127,5 +127,255 @@
     "meet_in_pub": "No",
     "time_restrictions": "Yes"
   }
+},
+{
+  "area_id": { "$numberInt": "17" },
+  "area_name": "Durham",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "18" },
+  "area_name": "Gateshead",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "19" },
+  "area_name": "Newcastle",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "20" },
+  "area_name": "Northumberland",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "21" },
+  "area_name": "North Tyneside",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "22" },
+  "area_name": "South Tyneside",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "23" },
+  "area_name": "Sunderland",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "24" },
+  "area_name": "Hartlepool",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "25" },
+  "area_name": "Middlesbrough",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "No",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "26" },
+  "area_name": "Leicester",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "27" },
+  "area_name": "Blackburn",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "28" },
+  "area_name": "Blackburn with Darwen",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "29" },
+  "area_name": "Blackpool",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "30" },
+  "area_name": "Burnley",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "31" },
+  "area_name": "Chorley",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "32" },
+  "area_name": "Fylde",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "33" },
+  "area_name": "Hyndburn",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "34" },
+  "area_name": "Lancaster",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "35" },
+  "area_name": "Pendle",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "36" },
+  "area_name": "Preston",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "37" },
+  "area_name": "Ribble Valley",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "38" },
+  "area_name": "Rossendale",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "39" },
+  "area_name": "South Ribble ",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "40" },
+  "area_name": "West Lancashire",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
+},
+{
+  "area_id": { "$numberInt": "41" },
+  "area_name": "Wyre",
+  "area_restrictions": {
+    "meet_indoors": "No",
+    "meet_outdoors": "Yes",
+    "meet_in_pub": "Yes",
+    "time_restrictions": "Yes"
+  }
 }
 ]
