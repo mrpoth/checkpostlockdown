@@ -96,7 +96,7 @@ app.get("/lockdowngif", (req, res) => {
     .get(`https://api.giphy.com/v1/gifs/search?api_key=${apiKey}=boris+johnson`)
     .then((gif) => {
       let url =
-        gif.data.data[Math.floor(1 + Math.random() * 50)].images.original.url;
+        gif.data.data[Math.floor(1 + Math.random() * 30)].images.original.url;
       res.json({ url });
     })
     .catch((err) => console.log(err));
